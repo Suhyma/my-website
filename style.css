@@ -1,20 +1,28 @@
 ﻿.nav {
     background: rgba(204, 187, 153, 1);
+    font-family: 'Rufina', serif;
+    color: #FFFFFF;
+}
+
+.link:hover { /*not working, figure out how to get links to change color on hover*/
+    color: grey;
 }
 
 .pink {
     background: rgba(252, 219, 211, 1);
-    display: inline-block; 
-}
-.body {
-    background: rgba(250, 250, 245, 1);
+    display: inline-block;
+    font-family: 'Rufina', serif;
+    color: #573C3C;
 }
 
 .beige {
-    background: rgba(250, 250, 245, 1);
+    background: rgba(250, 243, 235, 1);
     display: inline-block;
+    font-family: 'Rufina', serif;
+    color: #573C3C;
 }
 
 .welcome {
     text-align: center;
+    color: #573C3C;
 }
