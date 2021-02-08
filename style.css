@@ -4,6 +4,10 @@
     color: #FFFFFF;
 }
 
+.link {
+    font-size: 1.1em;
+}
+
 .link:hover { /*not working, figure out how to get links to change color on hover*/
     color: grey;
 }
@@ -15,14 +19,27 @@
     color: #573C3C;
 }
 
+.name {
+    font-size: 4em;
+    position: relative;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
 .beige {
-    background: rgba(250, 243, 235, 1);
+    background: rgba(255, 250, 245, 1);
     display: inline-block;
     font-family: 'Rufina', serif;
     color: #573C3C;
+}
+
+h1 {
+    position: relative;
+    padding: 20px;
 }
 
 .welcome {
     text-align: center;
     color: #573C3C;
 }
+
