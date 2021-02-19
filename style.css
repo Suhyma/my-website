@@ -1,4 +1,10 @@
-﻿.nav {
+﻿/* COLOURS USED 
+    pink:  rgba(252, 219, 211, 1)
+    green: rgba(108, 156, 108, 1)
+    beige:  rgba(255, 250, 245, 1)
+*/
+
+.nav {
     background: rgba(204, 187, 153, 1);
     font-family: 'Rufina', serif;
     color: #FFFFFF;
@@ -43,3 +49,24 @@ h1 {
     color: #573C3C;
 }
 
+.pink-line {
+    position: relative;
+    background: rgba(252, 219, 211, 1);
+    width: 412px;
+    height: 7px;
+    top: -30px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.green-line {
+    position: relative;
+    background: rgba(108, 156, 108, 1);
+    width: 412px;
+    height: 7px;
+    top: -30px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
