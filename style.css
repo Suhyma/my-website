@@ -57,7 +57,6 @@ h1 {
     top: -30px;
     padding: 0;
     margin: 0;
-    border: 0;
 }
 
 .green-line {
@@ -68,5 +67,21 @@ h1 {
     top: -30px;
     padding: 0;
     margin: 0;
-    border: 0;
+}
+
+.green-square {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    left: 600px;
+    background: rgba(108, 156, 108, 1);
+}
+
+.my-pic {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    top: -200px;
+    left: 520px;
+    background: rgba(252, 219, 211, 1);
 }
