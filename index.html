@@ -43,24 +43,32 @@
         <div class="col card-body green-square"></div>
         <div class="col card-body my-pic"></div>
 
-        <div class="hi"> hey there, i'm suhyma!</div>
+        <div class="container hi"> <h2>hi there, i'm suhyma!</h2></div>
 
-        <style>
-            .green-square {
+        <!-- not sure what's going on here, when i put this in the style sheet it doesnt work :( -->
+        <style> 
+            .green-square { 
                 position: relative;
-                width: 230px;
-                height: 230px;
+                width: 270px;
+                height: 270px;
+                top: -120px;
                 left: 550px;
                 background: rgba(108, 156, 108, 1);
             }
 
             .my-pic {
                 position: relative;
-                width: 230px;
-                height: 230px;
-                top: -200px;
+                width: 270px;
+                height: 270px;
+                top: -360px;
                 left: 520px;
                 background: rgba(252, 219, 211, 1);
+            }
+
+            .hi {
+                position: inherit;
+                display: inline-block;
+
             }
         </style>
 
