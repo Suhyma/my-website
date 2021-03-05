@@ -37,22 +37,31 @@
     <div class="container-fluid beige" id="about">
         <br /> <br />
         <h1>about me</h1>
-        <div class="container pink-line"></div>
+        <div class="container-fluid pink-line"></div>
         <br /><br /> <br />
 
-        <div class="col card-body green-square"></div>
-        <div class="col card-body my-pic"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="green-square"></div>
+                    <div class=" my-pic"></div>
+                </div>
+                <div class="float-left hi"> <h1>hi there, <br /> i'm suhyma!</h1></div>
+            </div>
+        </div>
 
-        <div class="container hi"> <h2>hi there, i'm suhyma!</h2></div>
+        <div class="container">
+            <p class="bio">I’m a Systems Design Engineering student at the University of Waterloo! <br />I’m learning a lot about web development and design. I’m passionate about finding solutions <br /> for problems using technology and helping others. I hope to use my knowledge and skills to make a difference in the world! <br /> Which is really the best way they can be used :) </p>
+        </div>
 
         <!-- not sure what's going on here, when i put this in the style sheet it doesnt work :( -->
-        <style> 
-            .green-square { 
+        <style>
+            .green-square {
                 position: relative;
                 width: 270px;
                 height: 270px;
                 top: -120px;
-                left: 550px;
+                left: 500px;
                 background: rgba(108, 156, 108, 1);
             }
 
@@ -61,14 +70,19 @@
                 width: 270px;
                 height: 270px;
                 top: -360px;
-                left: 520px;
+                left: 470px;
                 background: rgba(252, 219, 211, 1);
             }
 
             .hi {
-                position: inherit;
-                display: inline-block;
+                position: relative;
+            }
 
+            .bio {
+                position: relative;
+                top: -330px;
+                text-align: center;
+                font-size: 18px;
             }
         </style>
 

@@ -85,3 +85,8 @@ h1 {
     left: 520px;
     background: rgba(252, 219, 211, 1);
 }
+
+p {
+    text-align: center;
+}
+
