@@ -1,7 +1,9 @@
 ﻿/* COLOURS USED 
     pink:  rgba(252, 219, 211, 1)
     green: rgba(108, 156, 108, 1)
-    beige:  rgba(255, 250, 245, 1)
+    bg beige:  rgba(255, 250, 245, 1)
+    nav brown:  rgba(204, 187, 153, 1)
+    text brown: #573C3C
 */
 
 .nav {
@@ -12,10 +14,6 @@
 
 .link {
     font-size: 1.1em;
-}
-
-.link:hover { /*not working, figure out how to get links to change color on hover*/
-    color: grey;
 }
 
 .pink {
