@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="style.css">
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 </style>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -54,7 +55,7 @@
         </div>
 
         <div class="container">
-            <p class="bio">I’m a Systems Design Engineering student at the University of Waterloo! <br />I’m learning a lot about web development and design. I’m passionate about finding solutions <br /> for problems using technology and helping others. I hope to use my knowledge and skills to make a difference in the world! <br /> Which is really the best way they can be used :) </p>
+            <h6 class="bio">I’m a Systems Design Engineering student at the University of Waterloo! <br />I’m learning a lot about web development and design. I’m passionate about finding solutions <br /> for problems using technology and helping others. I hope to use my knowledge and skills to make a difference in the world! <br /> Which is really the best way they can be used :) </h6>
         </div>
 
         <!-- not sure what's going on here, when i put this in the style sheet it doesnt work :( -->
@@ -106,9 +107,37 @@
                 text-align: center;
                 font-size: 18px;
             }
+
+            .project-right {
+                /*height: 217px; */
+                width: 475px;
+                padding: 20px;
+                max-width: 100%;
+                height: auto;
+                padding-right: 50px;
+                font-family: 'Rufina', serif;
+            }
+
+            .project-left {
+                /*height: 217px; */
+                width: 475px;
+                padding: 20px;
+                max-width: 100%;
+                height: auto;
+                padding-left: 50px;
+                font-family: 'Rufina', serif;
+            }
+
+            h6 {
+                font-family: Montserrat;
+            }
+
+            .blurb {
+                padding: 75px;
+            }
         </style>
 
-        <br /><br /><br /><br /><br /><br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br />
+       
     </div>
 
     <!-- PROJECTS -->
@@ -116,7 +145,35 @@
         <br /> <br />
         <h1 class="text-right">projects</h1>
         <div class="float-right green-line"></div>
-        <br /><br /> <br /> <br /><br /><br /><br /><br /><br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br />
+        <br />
+
+        <div class="row">
+        <img src="images/valeo.png" alt="valeo" class="col rounded img-fluid float-left project-left" />
+            <div class="col blurb">
+                <div style="display:inline-block;" class="row">
+                    <h2>Valeo</h2>
+                    <div style="display:inline-block;"><h5>React, HTML + CSS</h5></div>
+                    <h6>Top 15 winner @ Hack Against COVID out of 115 participants. A business analysis tool built for small businesses during COVID-19 that tracks progress through sales and online presence.</h6>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row ummah">
+            <div class="col blurb">
+                <div style="display:inline-block;" class="row">
+                    <h2>Ummah Connects</h2>
+                    <div style="display:inline-block;"><h5>HTML + CSS</h5></div>
+                    <h6>My first hackathon project; an online platform that allows users to educate themselves on humanitarian crises and take action.</h6>
+                </div>
+
+            </div>
+            <img src="images/ummah-connects.PNG" alt="ummah-connects" class="col img-fluid rounded float-right project-right" />
+
+        </div>
+
+        <br /><br />
     </div>
 
     <!-- FUN -->
