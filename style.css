@@ -5,10 +5,9 @@
     nav brown:  rgba(204, 187, 153, 1)
     text brown: #573C3C
 */
-
 .nav {
     background: rgba(204, 187, 153, 1);
-    font-family: 'Rufina', serif;
+    font-family: 'Rufina';
     color: #FFFFFF;
 }
 
@@ -87,4 +86,89 @@ h1 {
 p {
     text-align: center;
 }
+.link:hover { /*not working, figure out how to get links to change color on hover*/
+    color: rgb(108, 156, 108) !important;
+}
 
+.resume {
+    position: relative;
+    display: inline-block;
+    color: #573C3C;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    top: 50px;
+    left: -80px;
+}
+
+    .resume:hover {
+        font-style: italic;
+        color: #573C3C;
+    }
+
+.green-square {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    top: -120px;
+    left: 500px;
+    background: rgba(108, 156, 108, 1);
+}
+
+.my-pic {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    top: -360px;
+    left: 470px;
+    background: rgba(252, 219, 211, 1);
+}
+
+.hi {
+    position: relative;
+    left: 200px;
+    top: -20px;
+    text-align: right;
+}
+
+.bio {
+    position: relative;
+    top: -330px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+ 
+}
+
+.project-right {
+    /*height: 217px; */
+    width: 475px;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    padding-right: 50px;
+    font-family: 'Rufina', serif;
+}
+
+.project-left {
+    /*height: 217px; */
+    width: 475px;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+    padding-left: 50px;
+    font-family: 'Rufina', serif;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.blurb {
+    padding: 75px;
+}

@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
-<style>
+<style> /* importing fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 </style>
@@ -25,15 +25,14 @@
     <div class="container-fluid pink" id="home">
         <br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br />
         <div class="row">
-            <h1 class="col name">suhyma rahman</h1>
+            <h1 class="col name">Suhyma Rahman</h1>
             <a href="https://www.google.ca/" class="col float-left resume" target="_blank"><h3>resume</h3></a>
         </div>
     </div>
 
     <div class="container-fluid beige">
         <br /> <br /> <br /><br /> <br /> <br /><br />
-        <h3 class="welcome">welcome to my little corner of the internet.</h3>
-        <!--<div class="float-left hi"> <h1>hi there, <br /> i'm suhyma!</h1></div>-->
+        <h3 class="welcome">welcome! it's nice to meet you.</h3>
         <br /><br /><br /><br />
 
     </div>
@@ -49,94 +48,18 @@
             <div class="row">
                 <div class="col">
                     <div class="green-square"></div>
-                    <div class=" my-pic"></div>
+                    <img src="images/me.jpg" alt = "it's me!" class="my-pic">
+                </div>
+                <div class="col">
+                    <div class="float-left hi"> <h1>hi there, <br /> i'm suhyma!</h1></div>
                 </div>
             </div>
         </div>
 
-        <div class="container">
-            <h6 class="bio">I’m a Systems Design Engineering student at the University of Waterloo! <br />I’m learning a lot about web development and design. I’m passionate about finding solutions <br /> for problems using technology and helping others. I hope to use my knowledge and skills to make a difference in the world! <br /> Which is really the best way they can be used :) </h6>
+        <div class="container" >
+            <h6 class="bio"> I’m finishing up my first year in Systems Design Engineering at the University of Waterloo after completing my first co-op term at AMD (it was an awesome experience). In these past few months, I’ve been learning a lot about web development and design, whether it be through school, hackathons, co-op, or courses. I've also been taking the time to think about how I define success, rather than comparing my path to others'. I hope to use my knowledge and skills to make a positive impact in the world, which is really the best way they can be used :) </h6>
         </div>
     </div>
-
-    <!-- not sure what's going on here, when i put this in the style sheet it doesnt work :( -->
-    <style>
-        .link:hover { /*not working, figure out how to get links to change color on hover*/
-            color: rgb(108, 156, 108) !important;
-        }
-
-        .resume {
-            position: relative;
-            display: inline-block;
-            color: #573C3C;
-            padding-bottom: 0px;
-            padding-left: 20px;
-            top: 50px;
-            left: -80px;
-        }
-
-            .resume:hover {
-                font-style: italic;
-                color: #573C3C;
-            }
-
-        .green-square {
-            position: relative;
-            width: 270px;
-            height: 270px;
-            top: -120px;
-            left: 500px;
-            background: rgba(108, 156, 108, 1);
-        }
-
-        .my-pic {
-            position: relative;
-            width: 270px;
-            height: 270px;
-            top: -360px;
-            left: 470px;
-            background: rgba(252, 219, 211, 1);
-        }
-
-        .hi {
-            position: relative;
-        }
-
-        .bio {
-            position: relative;
-            top: -330px;
-            text-align: center;
-            font-size: 18px;
-        }
-
-        .project-right {
-            /*height: 217px; */
-            width: 475px;
-            padding: 20px;
-            max-width: 100%;
-            height: auto;
-            padding-right: 50px;
-            font-family: 'Rufina', serif;
-        }
-
-        .project-left {
-            /*height: 217px; */
-            width: 475px;
-            padding: 20px;
-            max-width: 100%;
-            height: auto;
-            padding-left: 50px;
-            font-family: 'Rufina', serif;
-        }
-
-        h6 {
-            font-family: Montserrat;
-        }
-
-        .blurb {
-            padding: 75px;
-        }
-    </style>
 
     <!-- PROJECTS -->
     <div class="container-fluid beige" id="projects">
