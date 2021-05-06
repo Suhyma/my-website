@@ -4,6 +4,7 @@
 <style> /* importing fonts */
     @import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 </style>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -25,7 +26,7 @@
     <div class="container-fluid pink" id="home">
         <br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br />
         <div class="row">
-            <h1 class="col name">Suhyma Rahman</h1>
+            <h1 class="col name">suhyma rahman</h1>
             <a href="https://www.google.ca/" class="col float-left resume" target="_blank"><h3>resume</h3></a>
         </div>
     </div>
@@ -46,18 +47,18 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
+                <div class="container-fluid col-sm">
                     <div class="green-square"></div>
-                    <img src="images/me.jpg" alt = "it's me!" class="my-pic">
+                    <img src="images/me.jpg" alt = "it's me!" class="my-pic img-fluid">
                 </div>
-                <div class="col">
+                <div class="container-fluid col-sm">
                     <div class="float-left hi"> <h1>hi there, <br /> i'm suhyma!</h1></div>
                 </div>
             </div>
         </div>
 
-        <div class="container" >
-            <h6 class="bio"> I’m finishing up my first year in Systems Design Engineering at the University of Waterloo after completing my first co-op term at AMD (it was an awesome experience). In these past few months, I’ve been learning a lot about web development and design, whether it be through school, hackathons, co-op, or courses. I've also been taking the time to think about how I define success, rather than comparing my path to others'. I hope to use my knowledge and skills to make a positive impact in the world, which is really the best way they can be used :) </h6>
+        <div class="container-fluid" >
+            <h6 class="bio"> I’m finishing up my first year in Systems Design Engineering at the University of Waterloo after completing my first co-op term at AMD (it was an awesome experience). In these past few months, I’ve been learning a lot about web development and design, whether it be through school, co-op, hackathons, or courses. I've also been taking the time to think about how I define success, rather than comparing my path to others'. I'm looking to explore the options I have as an engineer and learn new things along the way! Most importantly, I hope to use my knowledge and skills to make a positive impact in the world, which is really the best way they can be used :) </h6>
         </div>
     </div>
 
@@ -69,27 +70,25 @@
         <br />
 
         <div class="row">
-            <img src="images/valeo.png" alt="valeo" class="col rounded img-fluid float-left project-left" />
+            <img src="images/valeo.png" alt="valeo" class=" rounded-0 col img-fluid float-left project-left" style="border-collapse: separate;"/>
             <div class="col blurb">
-                <div style="display:inline-block;" class="row">
+                <div style="display:inline;" class="row">
                     <h2>Valeo</h2>
-                    <div style="display:inline-block;"><h5>React, HTML + CSS</h5></div>
+                    <div style="display:inline;"><h5>React, HTML + CSS</h5></div>
                     <h6>Top 15 winner @ Hack Against COVID out of 115 participants. A business analysis tool built for small businesses during COVID-19 that tracks progress through sales and online presence.</h6>
                 </div>
             </div>
-
         </div>
 
         <div class="row">
             <div class="col blurb">
-                <div style="display:inline-block;" class="row">
+                <div style="display:inline;" class="row">
                     <h2>Ummah Connects</h2>
-                    <div style="display:inline-block;"><h5>HTML + CSS</h5></div>
-                    <h6>My first hackathon project; an online platform that allows users to educate themselves on humanitarian crises and take action.</h6>
+                    <div style="display:inline;"><h5>HTML + CSS</h5></div>
+                    <h6>My first hackathon project, and my first time coding in HTML/CSS; an online platform that allows users to educate themselves on humanitarian crises and take action.</h6>
                 </div>
-
             </div>
-            <img src="images/ummah-connects.PNG" alt="ummah-connects" class="col img-fluid rounded float-right project-right" />
+            <img src="images/ummah-connects.PNG" alt="ummah-connects" class="rounded col img-fluid float-right project-right" style="border-collapse: separate;"/>
         </div>
 
         <br /><br />
@@ -97,16 +96,38 @@
 
     <!-- FUN -->
     <div class="container-fluid beige" id="fun">
-        <br /> <br />
+        <br /> 
         <h1>fun!</h1>
         <div class="pink-line"></div>
-        <br />
-
         <div class="row">
-            <div class="col blurb">
+            <div class="col-sm blurb">
                 <h2>Journaling</h2>
+                <h6>I've been keeping some sort of journal since 2018. Experimenting with layering images, art paper, and stationeries is so therapeutic and enjoyable for me. I own an excessive amount of stickers and washi tapes but that's okay because makes my heart happy :) I started keeping a bullet journal last year instead of using a store-bought planner and I love it! It keeps me on track while allowing me to be a little creative within my busy schedule.</h6>
             </div>
-            <img src="images/journal.jpeg" alt="one of my journal spreads" class="img-fluid rounded float-left project-left" />
+            <div class="col-sm">
+                <br /> <br /> <br /> 
+                <div id="carouselControls" class="carousel slide" data-ride="carousel" style="width: 75%;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 img-fluid" src="images/journal1.jpeg" alt="an art journal spread">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="images/journal2.jpg" alt="my bullet journal">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="images/journal3.jpg" alt="another art journal spread">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -116,7 +137,7 @@
         <br /> <br />
         <h1 class="text-right">contact</h1>
         <div class="float-right green-line"></div>
-        <br /><br /> <br /> <br /><br /><br /><br /><br /><br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br />
+        <br /><br /><br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br /> <br /><br /> <br />
     </div>
 
     <!--bootstrap js links -->
