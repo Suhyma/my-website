@@ -5,6 +5,11 @@
     nav brown:  rgba(204, 187, 153, 1)
     text brown: #573C3C
 */
+
+html {
+    scroll-behavior: smooth;
+  }
+
 .nav {
     background: rgba(204, 187, 153, 1);
     font-family: 'Rufina';
