@@ -192,5 +192,8 @@ h1 {
 .icons {
     position: relative;
     margin: auto;
-    
+}
+
+.icon {
+    padding: 15px;
 }
