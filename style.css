@@ -91,7 +91,7 @@ h1 {
 p {
     text-align: center;
 }
-.link:hover { /*not working, figure out how to get links to change color on hover*/
+.link:hover { 
     color: rgb(108, 156, 108) !important;
 }
 
@@ -105,10 +105,10 @@ p {
     left: -80px;
 }
 
-    .resume:hover {
-        font-style: italic;
-        color: #573C3C;
-    }
+.resume:hover {
+    font-style: italic;
+    color: #573C3C;
+}
 
 .green-square {
     position: relative;
@@ -196,4 +196,14 @@ h1 {
 
 .icon {
     padding: 15px;
+    color:  rgba(108, 156, 108, 1);
+}
+
+.icon:hover {
+    margin-top: -5px;
+    transition: 0.2s;
+}
+
+.final {
+    font-family: 'Montserrat', sans-serif;
 }
